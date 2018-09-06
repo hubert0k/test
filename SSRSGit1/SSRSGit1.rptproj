@@ -49,6 +49,10 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
+    <DataSet Include="accountType.rsd" />
+    <DataSet Include="CurrencyName.rsd" />
+  </ItemGroup>
+  <ItemGroup>
     <DataSource Include="adventureWorksDW.rds" />
     <DataSource Include="xPressTest.rds" />
   </ItemGroup>
