@@ -56,5 +56,8 @@
     <DataSource Include="adventureWorksDW.rds" />
     <DataSource Include="xPressTest.rds" />
   </ItemGroup>
+  <ItemGroup>
+    <Report Include="Report1.rdl" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
