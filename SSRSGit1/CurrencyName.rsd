@@ -3,7 +3,7 @@
   <DataSet Name="DataSet1">
     <Query>
       <DataSourceReference>xPressTest</DataSourceReference>
-      <CommandText>SELECT CurrencyName FROM dbo.DimCurrency</CommandText>
+      <CommandText>SELECT DISTINCT CurrencyName FROM dbo.DimCurrency</CommandText>
     </Query>
     <Fields>
       <Field Name="CurrencyName">
